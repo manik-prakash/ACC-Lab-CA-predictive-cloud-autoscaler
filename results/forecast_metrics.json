@@ -1,0 +1,602 @@
+[
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 1,
+    "mae": 0.632644210196078,
+    "rmse": 0.7628722933192476,
+    "mape_pct": 6.789138196724166
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 3,
+    "mae": 0.7112552893060251,
+    "rmse": 0.8875651950999294,
+    "mape_pct": 7.405829177684736
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 5,
+    "mae": 0.8900824934274206,
+    "rmse": 1.105833056655514,
+    "mape_pct": 8.876493550254287
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 1,
+    "mae": 0.6096383135443705,
+    "rmse": 0.7600267521576688,
+    "mape_pct": 6.366356361242204
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 3,
+    "mae": 0.7989708668854058,
+    "rmse": 0.9955338031666616,
+    "mape_pct": 8.367423249556946
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 5,
+    "mae": 1.0431411310739824,
+    "rmse": 1.250449523008149,
+    "mape_pct": 10.656552979176515
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 1,
+    "mae": 0.5832507355869132,
+    "rmse": 0.6843902430641177,
+    "mape_pct": 6.248338933704643
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 3,
+    "mae": 0.710622491842359,
+    "rmse": 0.868729498364371,
+    "mape_pct": 7.741411634237201
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 5,
+    "mae": 0.9049804892352323,
+    "rmse": 1.0849632922290275,
+    "mape_pct": 9.662100032213623
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 1,
+    "mae": 0.5839652131239169,
+    "rmse": 0.6996079092609946,
+    "mape_pct": 6.2872804019879585
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 3,
+    "mae": 0.7403424845877227,
+    "rmse": 0.9020252036917413,
+    "mape_pct": 8.21394868038943
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 5,
+    "mae": 0.8700307442608718,
+    "rmse": 1.0867866030854103,
+    "mape_pct": 9.59321873744116
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 1,
+    "mae": 0.6174387807723651,
+    "rmse": 0.738633065737937,
+    "mape_pct": 6.935211360878118
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 3,
+    "mae": 0.8420518349159541,
+    "rmse": 1.021301996234466,
+    "mape_pct": 9.886142513317207
+  },
+  {
+    "trace": "daily (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 5,
+    "mae": 1.1507541893220459,
+    "rmse": 1.367812263096521,
+    "mape_pct": 13.670185335191123
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 1,
+    "mae": 0.6327494049141228,
+    "rmse": 0.7546789824260983,
+    "mape_pct": 4.99611858248009
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 3,
+    "mae": 0.6698036993619325,
+    "rmse": 0.8179592436979564,
+    "mape_pct": 5.030491700149145
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 5,
+    "mae": 0.7861254191072863,
+    "rmse": 0.9414575394343165,
+    "mape_pct": 5.680390530290492
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 1,
+    "mae": 0.5741389954440655,
+    "rmse": 0.680376049491779,
+    "mape_pct": 4.321981825095798
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 3,
+    "mae": 0.6710112740040659,
+    "rmse": 0.8136843611388687,
+    "mape_pct": 4.977104842455687
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 5,
+    "mae": 0.7875212820357239,
+    "rmse": 0.9503043989086,
+    "mape_pct": 5.708779534970322
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 1,
+    "mae": 0.5846149149500669,
+    "rmse": 0.683915897658994,
+    "mape_pct": 4.5758424207503845
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 3,
+    "mae": 0.7108645218916172,
+    "rmse": 0.8668582896794716,
+    "mape_pct": 5.556082719710405
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 5,
+    "mae": 0.9021919889179131,
+    "rmse": 1.0801907154492878,
+    "mape_pct": 6.553887061511247
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 1,
+    "mae": 0.5845723373046607,
+    "rmse": 0.698844214440965,
+    "mape_pct": 4.5621225897388396
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 3,
+    "mae": 0.7383928540575224,
+    "rmse": 0.8995445051128194,
+    "mape_pct": 5.694310253714588
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 5,
+    "mae": 0.8708234868050219,
+    "rmse": 1.0815781740357346,
+    "mape_pct": 6.325190307474777
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 1,
+    "mae": 0.6564849802846355,
+    "rmse": 0.7851959032103604,
+    "mape_pct": 4.780894441796409
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 3,
+    "mae": 0.9475275301520174,
+    "rmse": 1.1508758173725084,
+    "mape_pct": 6.154708002039512
+  },
+  {
+    "trace": "ramp (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 5,
+    "mae": 1.2945826777157774,
+    "rmse": 1.576554176856689,
+    "mape_pct": 7.8106575151159445
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 1,
+    "mae": 5.593167353972898,
+    "rmse": 6.728926020797443,
+    "mape_pct": 53.204087422022525
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 3,
+    "mae": 5.501403340971895,
+    "rmse": 6.853136136841324,
+    "mape_pct": 53.752892900529204
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "naive",
+    "horizon_min": 5,
+    "mae": 5.96312124627977,
+    "rmse": 7.211335442859309,
+    "mape_pct": 60.3988352690377
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 1,
+    "mae": 4.599630552200958,
+    "rmse": 5.481168916835194,
+    "mape_pct": 46.28538734381186
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 3,
+    "mae": 4.808711879998027,
+    "rmse": 5.7851600700099,
+    "mape_pct": 48.93511609010533
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "moving_avg",
+    "horizon_min": 5,
+    "mae": 4.875044142784838,
+    "rmse": 5.861815824923636,
+    "mape_pct": 49.92830921556383
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 1,
+    "mae": 5.260556914712242,
+    "rmse": 6.15385358293995,
+    "mape_pct": 50.54782739416306
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 3,
+    "mae": 6.396657623464054,
+    "rmse": 7.799592700506925,
+    "mape_pct": 63.84419256329097
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "holt",
+    "horizon_min": 5,
+    "mae": 8.120585248218715,
+    "rmse": 9.721653309586907,
+    "mape_pct": 80.07198793602744
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 1,
+    "mae": 5.261151035741946,
+    "rmse": 6.289597929968686,
+    "mape_pct": 50.83667656051817
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 3,
+    "mae": 6.645535686517699,
+    "rmse": 8.095900546015377,
+    "mape_pct": 65.16700704875174
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "window_trend",
+    "horizon_min": 5,
+    "mae": 7.837411381245194,
+    "rmse": 9.734203566321614,
+    "mape_pct": 77.55115894025442
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 1,
+    "mae": 4.744216776288283,
+    "rmse": 5.571006532914799,
+    "mape_pct": 46.293100261488945
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 3,
+    "mae": 4.823251066779258,
+    "rmse": 5.838987163073451,
+    "mape_pct": 48.621885761328734
+  },
+  {
+    "trace": "noise (seen kind)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 5,
+    "mae": 4.958642114507588,
+    "rmse": 5.949911281884958,
+    "mape_pct": 50.877576210812094
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "naive",
+    "horizon_min": 1,
+    "mae": 0.854517525499638,
+    "rmse": 2.7304406830628656,
+    "mape_pct": 10.169378638086313
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "naive",
+    "horizon_min": 3,
+    "mae": 1.3296584290854871,
+    "rmse": 4.623387617722591,
+    "mape_pct": 14.537666666673948
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "naive",
+    "horizon_min": 5,
+    "mae": 1.8445058895360036,
+    "rmse": 5.895390258624346,
+    "mape_pct": 19.048727451452148
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "moving_avg",
+    "horizon_min": 1,
+    "mae": 1.207232404582125,
+    "rmse": 3.8989104551733575,
+    "mape_pct": 12.907045019077595
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "moving_avg",
+    "horizon_min": 3,
+    "mae": 1.7131976715547563,
+    "rmse": 5.371733117307553,
+    "mape_pct": 17.330218775632915
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "moving_avg",
+    "horizon_min": 5,
+    "mae": 2.2092439108167197,
+    "rmse": 6.534479132010326,
+    "mape_pct": 21.474566993787597
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "holt",
+    "horizon_min": 1,
+    "mae": 1.169236076823245,
+    "rmse": 3.1598855734964193,
+    "mape_pct": 12.674840960330446
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "holt",
+    "horizon_min": 3,
+    "mae": 2.1274787108934468,
+    "rmse": 5.5783513303273615,
+    "mape_pct": 21.776036738017268
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "holt",
+    "horizon_min": 5,
+    "mae": 3.2452806421284413,
+    "rmse": 7.762030329238676,
+    "mape_pct": 32.265871289578705
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "window_trend",
+    "horizon_min": 1,
+    "mae": 1.3239410950141839,
+    "rmse": 3.589292906318388,
+    "mape_pct": 14.10087691529717
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "window_trend",
+    "horizon_min": 3,
+    "mae": 2.289939905841788,
+    "rmse": 6.004274183314295,
+    "mape_pct": 23.48699433630225
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "window_trend",
+    "horizon_min": 5,
+    "mae": 3.300059285972682,
+    "rmse": 8.196609361977567,
+    "mape_pct": 32.86269666906111
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 1,
+    "mae": 1.0752470333818498,
+    "rmse": 3.0463984625710827,
+    "mape_pct": 11.685858172914672
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 3,
+    "mae": 1.7507668553081113,
+    "rmse": 4.6547842535132915,
+    "mape_pct": 17.768165926062842
+  },
+  {
+    "trace": "spike (held-out)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 5,
+    "mae": 2.509082873586766,
+    "rmse": 5.783744625175574,
+    "mape_pct": 24.741771308146156
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "naive",
+    "horizon_min": 1,
+    "mae": 0.21030042918454936,
+    "rmse": 2.2816679389628516,
+    "mape_pct": 1.3063304721030045
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "naive",
+    "horizon_min": 3,
+    "mae": 0.6363636363636364,
+    "rmse": 3.9690359979781933,
+    "mape_pct": 3.952922077922078
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "naive",
+    "horizon_min": 5,
+    "mae": 1.0698689956331877,
+    "rmse": 5.1463303583432385,
+    "mape_pct": 6.6457423580786035
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "moving_avg",
+    "horizon_min": 1,
+    "mae": 0.630901287553648,
+    "rmse": 3.3842604633981956,
+    "mape_pct": 3.9189914163090136
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "moving_avg",
+    "horizon_min": 3,
+    "mae": 1.0606060606060606,
+    "rmse": 4.69622672520668,
+    "mape_pct": 6.588203463203464
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "moving_avg",
+    "horizon_min": 5,
+    "mae": 1.497816593886463,
+    "rmse": 5.7307109537067475,
+    "mape_pct": 9.304039301310045
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "holt",
+    "horizon_min": 1,
+    "mae": 0.583938344811718,
+    "rmse": 2.7030868861252277,
+    "mape_pct": 3.627270075551476
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "holt",
+    "horizon_min": 3,
+    "mae": 1.3310135207901144,
+    "rmse": 4.837309118173186,
+    "mape_pct": 8.267902865106084
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "holt",
+    "horizon_min": 5,
+    "mae": 2.199267579621547,
+    "rmse": 6.8164810797572875,
+    "mape_pct": 13.661266725438692
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "window_trend",
+    "horizon_min": 1,
+    "mae": 0.6759656652360562,
+    "rmse": 3.0793461607031376,
+    "mape_pct": 4.198919374616839
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "window_trend",
+    "horizon_min": 3,
+    "mae": 1.4141414141414186,
+    "rmse": 5.238621579222811,
+    "mape_pct": 8.784271284271318
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "window_trend",
+    "horizon_min": 5,
+    "mae": 2.21106259097526,
+    "rmse": 7.230199512218433,
+    "mape_pct": 13.734534206695828
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 1,
+    "mae": 0.8970853833514676,
+    "rmse": 2.6403420704240586,
+    "mape_pct": 6.602601424808734
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 3,
+    "mae": 1.7427617901473986,
+    "rmse": 4.123129257029036,
+    "mape_pct": 12.740592159650541
+  },
+  {
+    "trace": "step (held-out)",
+    "forecaster": "ridge_ar",
+    "horizon_min": 5,
+    "mae": 2.617152581563818,
+    "rmse": 5.218073091007292,
+    "mape_pct": 19.122577688447816
+  }
+]

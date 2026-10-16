@@ -1,0 +1,32 @@
+[
+  {
+    "method": "dqn_seed_1",
+    "avg_instances": 1.4083333333333334,
+    "avg_utilization": 0.7710398934493038,
+    "p95_latency_ms": 3188.8888888888896,
+    "violations": 30,
+    "cost_usd": 0.08449999999999999,
+    "energy_wh": 34.67327659037772,
+    "scaling_actions": 1
+  },
+  {
+    "method": "dqn_seed_2",
+    "avg_instances": 1.0,
+    "avg_utilization": 0.9486353574871376,
+    "p95_latency_ms": 3188.8888888888896,
+    "violations": 30,
+    "cost_usd": 0.05999999999999999,
+    "energy_wh": 40.3563314395884,
+    "scaling_actions": 30
+  },
+  {
+    "method": "dqn_seed_3",
+    "avg_instances": 5.470833333333333,
+    "avg_utilization": 0.24032615000218685,
+    "p95_latency_ms": 68.28859727436692,
+    "violations": 0,
+    "cost_usd": 0.32825,
+    "energy_wh": 19.69043680006998,
+    "scaling_actions": 5
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "method": "reactive",
+    "avg_instances": 2.5208333333333335,
+    "avg_utilization": 0.4757933943127997,
+    "p95_latency_ms": 70.03762389398372,
+    "violations": 4,
+    "cost_usd": 0.15125,
+    "energy_wh": 27.01914860055651,
+    "scaling_actions": 37
+  },
+  {
+    "method": "target_tracking",
+    "avg_instances": 3.0416666666666665,
+    "avg_utilization": 0.4310089048876658,
+    "p95_latency_ms": 70.03762389398372,
+    "violations": 4,
+    "cost_usd": 0.1825,
+    "energy_wh": 25.586044938952224,
+    "scaling_actions": 35
+  },
+  {
+    "method": "predictive_reactive",
+    "avg_instances": 3.345833333333333,
+    "avg_utilization": 0.3569805830456844,
+    "p95_latency_ms": 69.92896715023456,
+    "violations": 3,
+    "cost_usd": 0.20075,
+    "energy_wh": 23.291603912963584,
+    "scaling_actions": 35
+  },
+  {
+    "method": "qlearn_seed_1",
+    "avg_instances": 4.916666666666667,
+    "avg_utilization": 0.2706212257953999,
+    "p95_latency_ms": 224.3563612204458,
+    "violations": 0,
+    "cost_usd": 0.295,
+    "energy_wh": 20.659879225452798,
+    "scaling_actions": 4
+  },
+  {
+    "method": "qlearn_forecast_seed_1",
+    "avg_instances": 4.533333333333333,
+    "avg_utilization": 0.3036520604097172,
+    "p95_latency_ms": 70.03762389398372,
+    "violations": 5,
+    "cost_usd": 0.272,
+    "energy_wh": 21.5641083308623,
+    "scaling_actions": 5
+  },
+  {
+    "method": "qlearn_seed_2",
+    "avg_instances": 4.891666666666667,
+    "avg_utilization": 0.27291538462469817,
+    "p95_latency_ms": 224.3563612204458,
+    "violations": 0,
+    "cost_usd": 0.2935,
+    "energy_wh": 20.73329230799034,
+    "scaling_actions": 4
+  },
+  {
+    "method": "qlearn_forecast_seed_2",
+    "avg_instances": 3.0166666666666666,
+    "avg_utilization": 0.47660617742786027,
+    "p95_latency_ms": 3188.8888888888896,
+    "violations": 30,
+    "cost_usd": 0.181,
+    "energy_wh": 25.25139767769153,
+    "scaling_actions": 20
+  },
+  {
+    "method": "qlearn_seed_3",
+    "avg_instances": 4.925,
+    "avg_utilization": 0.2702317984002839,
+    "p95_latency_ms": 224.3563612204458,
+    "violations": 0,
+    "cost_usd": 0.2955,
+    "energy_wh": 20.647417548809084,
+    "scaling_actions": 4
+  },
+  {
+    "method": "qlearn_forecast_seed_3",
+    "avg_instances": 4.9125,
+    "avg_utilization": 0.2717307366397278,
+    "p95_latency_ms": 224.3563612204458,
+    "violations": 0,
+    "cost_usd": 0.29474999999999996,
+    "energy_wh": 20.69538357247129,
+    "scaling_actions": 4
+  }
+]
