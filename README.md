@@ -26,6 +26,10 @@ Forecasting a spike from history is inherently limited (3-minute MAPE 14-22% on 
 
 Two live runs on real AWS (reactive and forecast-driven, both with guardrails) scaled a real ASG 1 -> 6 -> 1. These are single runs under different load shapes, so they show the system works end to end, not that one policy beats the other. Q-learning and DQN were evaluated in simulation only.
 
+## Architecture
+
+Diagram: [`docs/architecture.excalidraw`](docs/architecture.excalidraw) (open at https://excalidraw.com or in the VS Code Excalidraw extension). Real AWS stack and decision layer on the left, the offline calibrate / train / evaluate pipeline on the right.
+
 ## Repository layout
 
 ```
@@ -40,6 +44,7 @@ scripts/live_demo.py     live AWS demo: up | run | status | down
 scripts/deploy-phase1.ps1, calibrate.py, run_constant_load.py, make_figures.py
 docs/FINAL_REPORT.md     full technical report
 docs/DEMO_SCRIPT.md      timed screencast outline
+docs/architecture.excalidraw  architecture diagram
 results/                 metrics, figures, calibration data, live-run traces
 PROJECT_LOG.md          phase-by-phase log
 ```
